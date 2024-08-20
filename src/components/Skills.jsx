@@ -13,7 +13,7 @@ import theme from "../theme";
 
 const Skills = () => {
   return (
-    <Box id="skills" w={"100%"} maxW={"1500px"} mx={"auto"} my={"5rem"}>
+    <Box id="skills" w={"100%"} h={'auto'} maxW={"1500px"} mx={"auto"} my={"5rem"}>
       <VStack w={"100%"} textAlign={'center'}>
         <Box color={theme.colors.primaryColor} fontSize={"5rem"}>
           <IoCodeSlash />
