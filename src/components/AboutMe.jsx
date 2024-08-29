@@ -55,7 +55,7 @@ const AboutMe = () => {
         >
           <VStack alignItems={"flex-start"}>
             <Text fontSize={["1rem", "1.1rem", "1.1rem", "1.1rem", "1.3rem"]}>
-              Hello! I’m [Your Name], a frontend developer dedicated to building
+              Hello! I’m  D.Giridhar, a frontend developer dedicated to building
               beautiful and functional web applications.
             </Text>
             <Text fontSize={["1rem", "1.1rem", "1.1rem", "1.1rem", "1.3rem"]}>

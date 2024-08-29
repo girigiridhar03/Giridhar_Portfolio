@@ -78,7 +78,7 @@ const Navbar = () => {
           gap={{ lg: "2rem", xl: "3rem" }}
           display={{ base: "none", lg: "flex" }}
         >
-          <Link href="#home">
+          <Link href="#home"  _hover={{textDecorationLine:'none'}}>
             <Box
               cursor={"pointer"}
               fontWeight={"600"}
@@ -89,7 +89,7 @@ const Navbar = () => {
             </Box>
           </Link>
           {/* About  */}
-          <Link href="#about">
+          <Link href="#about"  _hover={{textDecorationLine:'none'}}>
             <Box
               cursor={"pointer"}
               fontWeight={"600"}
@@ -101,7 +101,7 @@ const Navbar = () => {
           </Link>
 
           {/* Skills */}
-          <Link href="#skills">
+          <Link href="#skills"  _hover={{textDecorationLine:'none'}}>
             <Box
               cursor={"pointer"}
               fontWeight={"600"}
@@ -113,7 +113,7 @@ const Navbar = () => {
           </Link>
 
           {/* works */}
-          <Link href="#works">
+          <Link href="#works" _hover={{textDecorationLine:'none'}}>
             <Box
               cursor={"pointer"}
               fontWeight={"600"}
@@ -145,7 +145,7 @@ const Navbar = () => {
             variant="outline"
             px={"2.5rem"}
           >
-            Contact{" "}
+            Contact
             <Box fontSize={"1.1rem"}>
               <FiArrowUpRight />
             </Box>
