@@ -14,6 +14,7 @@ import {
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import theme from "../theme";
+import aboutImage from '../Assets/AboutImage.jpeg'
 
 const AboutMe = () => {
   return (
@@ -44,7 +45,7 @@ const AboutMe = () => {
           borderRadius={"10px"}
           overflow={"hidden"}
         >
-          <Image w={"100%"} h={"100%"} objectFit={"cover"} src={Me} />
+          <Image w={"100%"} h={"100%"} objectFit={"cover"} src={aboutImage} />
         </Box>
         <VStack
           w={["90%", "90%", "90%", "90%", "80%"]}
