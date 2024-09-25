@@ -6,11 +6,29 @@ import foodWebsite from '../Assets/ProjectImages/Food-website.png';
 import weatherApp from '../Assets/ProjectImages/weather-app.png';
 import ecommerce from '../Assets/ProjectImages/E-Commerce.png';
 import unsplashImages from '../Assets/ProjectImages/Unsplash-image-search-engine.png';
+import folk from '../Assets/ProjectImages/folk.png';
+import rotaract from '../Assets/ProjectImages/rotaract.png'
 
 
 
 
 export const projects = [
+    {
+        "id":8,
+        "projectName":'Rotaract',
+        'overview':'I worked on a Rotaract project, creating a platform that facilitates community engagement and volunteer opportunities. Using React, I developed an intuitive user interface that allows users to explore events, sign up for activities, and connect with other members. The project emphasizes collaboration and social impact within the community.',
+        "image": rotaract,
+         "link":'https://rotaract-chi.vercel.app/',
+         "gitCode":'https://github.com/girigiridhar03/Rotaract'
+    },
+    {
+        "id":8,
+        "projectName":'Folk',
+        'overview':'I developed a folk website focused on spiritual content and events using React and GSAP for animations. The site features dynamic, engaging elements that enhance the user experience while showcasing informative articles and event listings, aimed at fostering community engagement and sharing spiritual insights.',
+        "image": folk,
+         "link":'https://folk-client.vercel.app/',
+         "gitCode":'https://github.com/saikiran11461/Folk-client'
+    },
     {
         "id":1,
         "projectName":'Anime Rulz',
