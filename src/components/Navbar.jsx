@@ -172,18 +172,26 @@ const Navbar = () => {
               />
               <DrawerBody mt={"9rem"} textAlign={"center"}>
                 <Stack w={"100%"} gap={"2rem"}>
-                  <Box fontSize={"1.5rem"} fontWeight={"bold"}>
+                  <Link href="#home" >
+                  <Box fontSize={"1.5rem"} fontWeight={"bold"}  onClick={onClose}>
                     Home
                   </Box>
+                  </Link>
+                  <Link href="#about"  onClick={onClose}>
                   <Box fontSize={"1.5rem"} fontWeight={"bold"}>
                     About Me
                   </Box>
+                  </Link>
+                  <Link href="#skills"  onClick={onClose}>
                   <Box fontSize={"1.5rem"} fontWeight={"bold"}>
                     Skills
                   </Box>
+                  </Link>
+                  <Link href="#works"  onClick={onClose}>
                   <Box fontSize={"1.5rem"} fontWeight={"bold"}>
                     My Work
                   </Box>
+                  </Link>
                   <Box fontSize={"1.5rem"} fontWeight={"bold"}>
                     Contact Me
                   </Box>
