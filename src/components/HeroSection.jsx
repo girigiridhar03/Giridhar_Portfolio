@@ -5,6 +5,7 @@ import { GrDownload } from "react-icons/gr";
 import profileImage from '../Assets/image3.jpg'
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
+import resume from '../Assets/giridhar-resume.pdf'
 
 const HeroSection = () => {
     const theme = useTheme();
@@ -83,7 +84,7 @@ const HeroSection = () => {
 
                    </Box>
                     <Box>
-                      <Button display={'flex'} alignItems={'center'} gap={'0.5rem'} size={'lg'} borderRadius={'30px'} letterSpacing={'0.1rem'} variant={'outline'}  fontSize={'0.9rem'} opacity={'0.8'} color={'black'} border={'1px solid black'} fontFamily={theme.fonts.heading}  _hover={{bgColor:theme.colors.lightColor}}>
+                      <Button as={'a'} href={'../Assets/giridhar-resume.pdf'} download display={'flex'} alignItems={'center'} gap={'0.5rem'} size={'lg'} borderRadius={'30px'} letterSpacing={'0.1rem'} variant={'outline'}  fontSize={'0.9rem'} opacity={'0.8'} color={'black'} border={'1px solid black'} fontFamily={theme.fonts.heading}  _hover={{bgColor:theme.colors.lightColor}}>
                          my resume <Box><GrDownload /></Box>
                       </Button>
                     </Box>
