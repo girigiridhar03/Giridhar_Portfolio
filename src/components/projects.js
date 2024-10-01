@@ -8,11 +8,20 @@ import ecommerce from '../Assets/ProjectImages/E-Commerce.png';
 import unsplashImages from '../Assets/ProjectImages/Unsplash-image-search-engine.png';
 import folk from '../Assets/ProjectImages/folk.png';
 import rotaract from '../Assets/ProjectImages/rotaract.png'
+import cycleRestore from '../Assets/ProjectImages/cycleRestore.png'
 
 
 
 
 export const projects = [
+    {
+        "id":10,
+        "projectName":'Cycle Restore',
+        'overview':'Created a streamlined website for booking cycle repair services. The platform enables users to easily schedule repairs, improving service efficiency and customer satisfaction. Implemented features for service selection and scheduling, enhancing user engagement and operational workflow',
+        "image": cycleRestore,
+         "link":'https://www.cyclerestore.com/',
+         "gitCode":'https://github.com/saikiran11461/cycle-store-front-end'
+    },
     {
         "id":9,
         "projectName":'Rotaract',
